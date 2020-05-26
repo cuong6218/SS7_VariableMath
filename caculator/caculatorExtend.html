@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="h:/HTML/SS7_VariableMath/caculator/js/cacularExtend.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        button{
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+    <input type="text" id="textbox" value=""/>
+    <table>
+        <tr>
+            <th><button type="button" onClick="show('1')">1</button></th>
+            <th><button type="button" onClick="show('2')">2</button></th>
+            <th><button type="button" onClick="show('3')">3</button></th>
+            <th><button type="button" onClick="show('+')">+</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onClick="show('4')">4</button></th>
+            <th><button type="button" onClick="show('5')">5</button></th>
+            <th><button type="button" onClick="show('6')">6</button></th>
+            <th><button type="button" onClick="show('-')">-</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onClick="show('7')">7</button></th>
+            <th><button type="button" onClick="show('8')">8</button></th>
+            <th><button type="button" onClick="show('9')">9</button></th>
+            <th><button type="button" onClick="show('*')">x</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onClick="show('0')">0</button></th>
+            <th><button type="button" onClick="show('/')">/</button></th>
+            <th><button type="button" onClick="clearEach()">C</button></th>
+            <th><button type="button" onclick="clearScreen()">CE</button></th>
+            <th><button type="button" id="button3" onClick="equal()">=</button></th>
+        </tr>
+    </table>
+</body>
+</html>
